@@ -1,0 +1,96 @@
+div {
+margin-top: 10px;}
+
+.blockDiv {
+    display: block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.inlineDiv {
+    display: inline;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+.flexDiv {
+    display: flex;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+.ex2div {
+    display: flex;
+    background-color: aquamarine;
+    gap: 20px;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.ex3div {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    background-color: chocolate;
+    gap: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.ex5div {
+    display: flex;
+    background-color: darksalmon;
+    height: 200px;
+    align-items: center;
+}
+
+.p1 {
+    flex:1 1 100px;}
+.p2 {
+    flex:2 2 200px;}
+.p3 {
+    flex: 3 3 300px;} 
+.ex6div {
+    display: flex;
+    height: 200px;
+    background-color: darkkhaki;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.ex6p1 {
+    flex-basis: 50%;
+}
+.ex6p2 {
+    flex-shrink: 1;
+}
+.ex6p3 {
+    flex-grow: 100px;
+}
+.menu {
+    margin: auto;
+    display: flex;
+    width: 100px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: khaki;
+    gap: 20px;
+}
+.gallery {
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+width: 150px;
+height: 200px;}
